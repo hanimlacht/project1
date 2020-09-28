@@ -116,9 +116,14 @@ Metricbeat collects metrics and statistics from the OS and services running on t
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+
+- Copy the filebeat-configuration.yml file to _/etc/ansible/files.
+- Update the filebeat-configuration.yml file to include the ELK-Sever IP 10.3.0.4
+- Run thefilebeat-playbook, and navigate to Kibana to check that the installation worked as expected.
+
+- Copy the metricbeat-configuration.yml file to _/etc/ansible/files.
+- Update the metricbeat-configuration.yml file to include the ELK-Sever IP 10.3.0.4
+- Run the metricbeat-playbook, and navigate to Kibana to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
