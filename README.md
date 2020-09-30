@@ -5,7 +5,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![C:\Users\hanim\Downloads\cyberclass\project1\Diagrams](Images/diagram_filename.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -119,7 +119,7 @@ SSH into the control node and follow the steps below:
 
 - Copy the filebeat-configuration.yml file to _/etc/ansible/files.
 - Update the filebeat-configuration.yml file to include the ELK-Sever IP 10.3.0.4
-- Run thefilebeat-playbook, and navigate to Kibana to check that the installation worked as expected.
+- Run the filebeat-playbook, and navigate to Kibana to check that the installation worked as expected.
 
 - Copy the metricbeat-configuration.yml file to _/etc/ansible/files.
 - Update the metricbeat-configuration.yml file to include the ELK-Sever IP 10.3.0.4
